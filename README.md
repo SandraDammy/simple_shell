@@ -234,9 +234,9 @@ Simple shell 1.0 +
 # 14. Variables
 Simple shell 1.0 +
 
--Handle variables replacement
--Handle the $? variable
--Handle the $$ variable
+- Handle variables replacement
+- Handle the $? variable
+- Handle the $$ variable
 
 julien@ubuntu:~/shell$ ./hsh
 $ ls /var
@@ -264,12 +264,12 @@ julien@ubuntu:~/shell$
 #16. File as input
 Simple shell 1.0 +
 
--Usage: simple_shell [filename]
--Your shell can take a file as a command line argument
--The file contains all the commands that your shell should run before exiting
--The file should contain one command per line
--In this mode, the shell should not print a prompt and should not read from stdin
+- Usage: simple_shell [filename]
+- Your shell can take a file as a command line argument
+- The file contains all the commands that your shell should run before exiting
+- The file should contain one command per line
+- In this mode, the shell should not print a prompt and should not read from stdin
 
 # Contributors 👫
-*Odujirin Oluwadamilola Sandra *
-*James o. Fadeyi *
+- Odujirin Oluwadamilola Sandra 
+- James o. Fadeyi 
