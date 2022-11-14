@@ -259,7 +259,7 @@ julien@ubuntu:~/shell$ sh
 $ echo $$ # ls -la
 5114
 $ exit
-julien@ubuntu:~/shell$
+julien@ubuntu:~/shell$ 
 
 #16. File as input
 Simple shell 1.0 +
