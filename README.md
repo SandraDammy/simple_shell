@@ -1,8 +1,8 @@
-SIMPLE UNIX SHELL 🐚
-Description 📃
+# SIMPLE UNIX SHELL 🐚
+## Description 📃
 This is a simple implementation of a UNIX command line interpreter. The shell can interpret and execute command line arguments read from the standard input. the shell read lines from a file or terminal line which is then interpreted and executed if the command is valid
 
-Requirements
+## Requirements
 All the files are to be compiled on an Ubuntu 14.04 LTS machine with: gcc -Wall -Werror -Wextra -pedantic *.c
 All files ends end with a new line, with no memory leaks
 All code will use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
@@ -11,11 +11,12 @@ The simple shell supports most shell commands, such as cat, pwd, ls -la and more
 Return Value :
 The shell returns a value of 0 if the command is valid and the command is executed successfully.
 
-Output 📁
+## Output 📁
 The program must have the exact same output as sh (/bin/sh) as well as the exact same error output.
 The only difference is when you print an error, the name of the program must be equivalent to the argv[0]
 Usage
-list of fucntions and system calls used
+
+### list of fucntions and system calls used
 - access (man 2 access)
 - chdir (man 2 chdir)
 - close (man 2 close)
@@ -47,10 +48,10 @@ list of fucntions and system calls used
 - wait4 (man 2 wait4)
 - write (man 2 write)
 
-Compilation
+## Compilation
 The shell will be compiled this way: gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
-Testing
+## Testing
 The shell works like this in interactive mode:
 
 $ ./hsh
@@ -77,7 +78,7 @@ Mandatory Tasks
 0. Betty would be proud
 Write a beautiful code that passes the Betty checks
 
-1. Simple shell 0.1
+# 1. Simple shell 0.1
 Write a UNIX command line interpreter.
 
 Usage: simple_shell Your Shell should:
@@ -86,17 +87,17 @@ Display a prompt and wait for the user to type a command. A command line always 
 
 use the PATH implement built-ins handle special characters : ", ', `, \, *, &, # be able to move the cursor handle commands with arguments execve will be the core part of your Shell, don’t forget to pass the environ to it…
 
-3. Simple shell 0.3
+# 3. Simple shell 0.3
 Simple shell 0.2 +
 
 Handle the PATH fork must not be called if the command doesn’t exist
 
-4. Simple shell 0.4
+# 4. Simple shell 0.4
 Simple shell 0.3 +
 
 Implement the exit built-in, that exits the shell Usage: exit You don’t have to handle any argument to the built-in exit
 
-5. Simple shell 1.0
+# 5. Simple shell 1.0
 Simple shell 0.4 +
 
 Implement the env built-in, that prints the current environment
@@ -104,7 +105,8 @@ Implement the env built-in, that prints the current environment
 end of mandatory
 
 Advanced Tasks
-6. Simple shell 0.1.1
+
+# 6. Simple shell 0.1.1
 Simple shell 0.1 +
 
 Write your own getline function
